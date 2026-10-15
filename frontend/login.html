@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>登录 - 温控设备参数变更审批系统</title>
+  <link rel="stylesheet" href="styles.css?v=20260609-auth1">
+</head>
+<body data-page="login">
+  <div class="login-screen">
+    <section class="login-panel">
+      <div class="login-copy">
+        <h1>温控设备参数变更审批系统</h1>
+        <p>面向车间温控设备的参数审批站：记录设备、锁定参数、审批变更、追踪温度趋势和异常。</p>
+        <div class="login-meta">
+          <span>设备建档</span>
+          <span>参数审批</span>
+          <span>趋势追踪</span>
+        </div>
+      </div>
+      <form id="loginForm" class="login-form">
+        <h2>账号登录</h2>
+        <label>账号<input name="username" value="admin" required></label>
+        <label>密码<input name="password" type="password" value="admin123" required></label>
+        <button>登录系统</button>
+        <p id="message" class="message"></p>
+      </form>
+    </section>
+  </div>
+  <script src="vendor/axios.min.js?v=20260609-auth1"></script>
+  <script src="app.js?v=20260609-auth1"></script>
+</body>
+</html>

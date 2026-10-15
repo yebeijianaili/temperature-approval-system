@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp_*/
+
+.DS_Store
+Thumbs.db
+
+.venv/
+venv/
+env/
+
+# 课程提交材料与报告生成脚本：仅保留在本地，不进入公开仓库
+scripts/build_improved_report.py
+scripts/build_strict_report.py
+scripts/finalize_strict_report.py
+作业报告.docx
+*大作业报告.docx
+Python数据分析与挖掘大作业报告撰写要求*.docx
+答辩PPT.pptx

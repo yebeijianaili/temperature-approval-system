@@ -1,0 +1,11 @@
+﻿section,name,value
+数据规模,devices,3
+数据规模,points,4
+数据规模,readings,1200
+数据规模,requests,30
+数据规模,approvals,2
+数据规模,logs,1
+数据规模,alarms,11
+审批状态,approved,12
+审批状态,pending,12
+审批状态,rejected,6
